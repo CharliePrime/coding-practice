@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Young+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap");
+
+* {
+	font-family: "Outfit", sans-serif;
+}
+
+li::marker {
+	color: rgb(156, 78, 78);
+	font-weight: bold;
+	margin-right: 20px;
+}
+
+body {
+	background-color: hsl(30, 54%, 90%);
+}
+
+h1,
+h2 {
+	font-family: "Young Serif", serif;
+	font-weight: 200;
+}
+
+img {
+	object-fit: cover;
+	height: auto;
+	width: 100%;
+	border-radius: 1rem;
+}
+
+.container {
+	height: 100%;
+	width: 85vh;
+
+	margin: auto;
+	padding: 2rem;
+
+	border-radius: 1rem;
+	background-color: hsl(0, 0%, 100%);
+}
+
+.container p {
+	font-size: 14px;
+}
+
+.prep-time {
+	background-color: rgb(255, 245, 247);
+	border-radius: 1rem;
+
+	padding: 10px 10px;
+}
+
+.prep-time h3 {
+	color: rgb(156, 78, 78);
+}
+
+.prep-time ul li {
+	color: rgb(98, 98, 98);
+	margin: 10px 0;
+}
+
+.prep-time ul {
+	margin: 0 10px;
+}
+
+section h2 {
+	color: rgb(156, 78, 78);
+}
+
+section {
+	padding: 10px;
+	border-bottom: 1px lightgray solid;
+}
+
+li span {
+	position: relative;
+	left: 10px;
+}
+
+span {
+	font-weight: 250;
+}
+
+#instructions li {
+	margin: 10px 0;
+	color: rgb(98, 98, 98);
+}
+
+td:not(footer-table) {
+	border-bottom: 1px lightgray solid;
+	padding: 10px;
+	text-align: left;
+}
+
+td:first-child {
+	width: 45vh;
+}
+
+td:last-child {
+	width: 45vh;
+}
+
+#nutrition,
+.footer-table {
+	color: rgb(98, 98, 98);
+	border-bottom: none;
+}
+
+/* CREATED BY */
+.attribution {
+	margin: 30px;
+	font-size: 11px;
+	text-align: center;
+}
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}
